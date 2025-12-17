@@ -47,21 +47,23 @@
           <div
             class="flex items-center justify-center gap-3 rounded-[50px] bg-[#41ff6b1a] p-2 sm:w-[127px] sm:p-3"
           >
-            <p class="w-3 font-bold">0</p>
+            <p id="heartCount" class="w-3 font-bold">0</p>
             <img src="./assets/heart.png" alt="Heart" class="w-[30px]" />
           </div>
 
           <div
             class="flex items-center justify-center gap-10 rounded-[50px] bg-[#41ff6b1a] p-2 sm:w-[127px] sm:p-3"
           >
-            <p class="w-3 font-bold">100</p>
+            <p id="coinCount" class="w-3 font-bold">100</p>
             <img src="./assets/coin.png" alt="Coin" class="w-[30px]" />
           </div>
 
           <div
             class="flex items-center justify-center gap-10 rounded-[50px] bg-[#00a63e] p-2 sm:w-[127px] sm:p-3"
           >
-            <p class="font-semibold text-white"><span>2</span> copy</p>
+            <p class="font-semibold text-white">
+              <span id="copyCount">2</span> copy
+            </p>
           </div>
         </div>
       </div>
@@ -105,7 +107,9 @@
           <!-- Left Column (9 cols) -->
           <div class="col-span-12 sm:col-span-9">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5">
+              <div
+                class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5 rounded-lg"
+              >
                 <div class="flex justify-between items-center mb-4">
                   <div class="rounded-2xl bg-[#ffe3e2] p-[10px] sm:p-[14px]">
                     <img
@@ -116,7 +120,7 @@
                   </div>
                   <button
                     type="button"
-                    class="text-xl text-[#5c5c5c] sm:text-2xl"
+                    class="favorite-btn text-xl text-[#5c5c5c] sm:text-2xl"
                     aria-label="Add to favorites"
                   >
                     <i class="fa-regular fa-heart"></i>
@@ -139,18 +143,20 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <button class="btn btn-neutral btn-outline w-[48%]">
+                  <button class="btn btn-neutral btn-outline w-[48%] copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                   <button
-                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300"
+                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300 call-btn"
                   >
                     <i class="fa-solid fa-phone"></i> Call
                   </button>
                 </div>
               </div>
 
-              <div class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5">
+              <div
+                class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5 rounded-lg"
+              >
                 <div class="flex justify-between items-center mb-4">
                   <div class="rounded-2xl bg-[#ffe3e2] p-[10px] sm:p-[14px]">
                     <img
@@ -161,7 +167,7 @@
                   </div>
                   <button
                     type="button"
-                    class="text-xl text-[#5c5c5c] sm:text-2xl"
+                    class="favorite-btn text-xl text-[#5c5c5c] sm:text-2xl"
                     aria-label="Add to favorites"
                   >
                     <i class="fa-regular fa-heart"></i>
@@ -180,18 +186,20 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <button class="btn btn-neutral btn-outline w-[48%]">
+                  <button class="btn btn-neutral btn-outline w-[48%] copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                   <button
-                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300"
+                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300 call-btn"
                   >
                     <i class="fa-solid fa-phone"></i> Call
                   </button>
                 </div>
               </div>
 
-              <div class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5">
+              <div
+                class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5 rounded-lg"
+              >
                 <div class="flex justify-between items-center mb-4">
                   <div class="rounded-2xl bg-[#ffe3e2] p-[10px] sm:p-[14px]">
                     <img
@@ -202,7 +210,7 @@
                   </div>
                   <button
                     type="button"
-                    class="text-xl text-[#5c5c5c] sm:text-2xl"
+                    class="favorite-btn text-xl text-[#5c5c5c] sm:text-2xl"
                     aria-label="Add to favorites"
                   >
                     <i class="fa-regular fa-heart"></i>
@@ -223,18 +231,20 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <button class="btn btn-neutral btn-outline w-[48%]">
+                  <button class="btn btn-neutral btn-outline w-[48%] copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                   <button
-                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300"
+                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300 call-btn"
                   >
                     <i class="fa-solid fa-phone"></i> Call
                   </button>
                 </div>
               </div>
 
-              <div class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5">
+              <div
+                class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5 rounded-lg"
+              >
                 <div class="flex justify-between items-center mb-4">
                   <div class="rounded-2xl bg-[#ffe3e2] p-[10px] sm:p-[14px]">
                     <img
@@ -245,7 +255,7 @@
                   </div>
                   <button
                     type="button"
-                    class="text-xl text-[#5c5c5c] sm:text-2xl"
+                    class="favorite-btn text-xl text-[#5c5c5c] sm:text-2xl"
                     aria-label="Add to favorites"
                   >
                     <i class="fa-regular fa-heart"></i>
@@ -268,18 +278,20 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <button class="btn btn-neutral btn-outline w-[48%]">
+                  <button class="btn btn-neutral btn-outline w-[48%] copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                   <button
-                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300"
+                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300 call-btn"
                   >
                     <i class="fa-solid fa-phone"></i> Call
                   </button>
                 </div>
               </div>
 
-              <div class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5">
+              <div
+                class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5 rounded-lg"
+              >
                 <div class="flex justify-between items-center mb-4">
                   <div class="rounded-2xl bg-[#ffe3e2] p-[10px] sm:p-[14px]">
                     <img
@@ -290,7 +302,7 @@
                   </div>
                   <button
                     type="button"
-                    class="text-xl text-[#5c5c5c] sm:text-2xl"
+                    class="favorite-btn text-xl text-[#5c5c5c] sm:text-2xl"
                     aria-label="Add to favorites"
                   >
                     <i class="fa-regular fa-heart"></i>
@@ -313,18 +325,20 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <button class="btn btn-neutral btn-outline w-[48%]">
+                  <button class="btn btn-neutral btn-outline w-[48%] copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                   <button
-                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300"
+                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300 call-btn"
                   >
                     <i class="fa-solid fa-phone"></i> Call
                   </button>
                 </div>
               </div>
 
-              <div class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5">
+              <div
+                class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5 rounded-lg"
+              >
                 <div class="flex justify-between items-center mb-4">
                   <div class="rounded-2xl bg-[#ffe3e2] p-[10px] sm:p-[14px]">
                     <img
@@ -335,7 +349,7 @@
                   </div>
                   <button
                     type="button"
-                    class="text-xl text-[#5c5c5c] sm:text-2xl"
+                    class="favorite-btn text-xl text-[#5c5c5c] sm:text-2xl"
                     aria-label="Add to favorites"
                   >
                     <i class="fa-regular fa-heart"></i>
@@ -356,18 +370,20 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <button class="btn btn-neutral btn-outline w-[48%]">
+                  <button class="btn btn-neutral btn-outline w-[48%] copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                   <button
-                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300"
+                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300 call-btn"
                   >
                     <i class="fa-solid fa-phone"></i> Call
                   </button>
                 </div>
               </div>
 
-              <div class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5">
+              <div
+                class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5 rounded-lg"
+              >
                 <div class="flex justify-between items-center mb-4">
                   <div class="rounded-2xl bg-[#ffe3e2] p-[10px] sm:p-[14px]">
                     <img
@@ -378,7 +394,7 @@
                   </div>
                   <button
                     type="button"
-                    class="text-xl text-[#5c5c5c] sm:text-2xl"
+                    class="favorite-btn text-xl text-[#5c5c5c] sm:text-2xl"
                     aria-label="Add to favorites"
                   >
                     <i class="fa-regular fa-heart"></i>
@@ -401,18 +417,20 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <button class="btn btn-neutral btn-outline w-[48%]">
+                  <button class="btn btn-neutral btn-outline w-[48%] copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                   <button
-                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300"
+                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300 call-btn"
                   >
                     <i class="fa-solid fa-phone"></i> Call
                   </button>
                 </div>
               </div>
 
-              <div class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5">
+              <div
+                class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5 rounded-lg"
+              >
                 <div class="flex justify-between items-center mb-4">
                   <div class="rounded-2xl bg-[#ffe3e2] p-[10px] sm:p-[14px]">
                     <img
@@ -423,7 +441,7 @@
                   </div>
                   <button
                     type="button"
-                    class="text-xl text-[#5c5c5c] sm:text-2xl"
+                    class="favorite-btn text-xl text-[#5c5c5c] sm:text-2xl"
                     aria-label="Add to favorites"
                   >
                     <i class="fa-regular fa-heart"></i>
@@ -444,18 +462,20 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <button class="btn btn-neutral btn-outline w-[48%]">
+                  <button class="btn btn-neutral btn-outline w-[48%] copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                   <button
-                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300"
+                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300 call-btn"
                   >
                     <i class="fa-solid fa-phone"></i> Call
                   </button>
                 </div>
               </div>
 
-              <div class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5">
+              <div
+                class="max-w-[436px] bg-base-100 shadow-sm p-4 sm:p-5 rounded-lg"
+              >
                 <div class="flex justify-between items-center mb-4">
                   <div class="rounded-2xl bg-[#ffe3e2] p-[10px] sm:p-[14px]">
                     <img
@@ -466,7 +486,7 @@
                   </div>
                   <button
                     type="button"
-                    class="text-xl text-[#5c5c5c] sm:text-2xl"
+                    class="favorite-btn text-xl text-[#5c5c5c] sm:text-2xl"
                     aria-label="Add to favorites"
                   >
                     <i class="fa-regular fa-heart"></i>
@@ -487,11 +507,11 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <button class="btn btn-neutral btn-outline w-[48%]">
+                  <button class="btn btn-neutral btn-outline w-[48%] copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                   <button
-                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300"
+                    class="btn bg-[#00A63E] w-[48%] text-white hover:bg-gray-300 call-btn"
                   >
                     <i class="fa-solid fa-phone"></i> Call
                   </button>
@@ -502,7 +522,7 @@
 
           <!-- ================= Services Right Section ================= -->
           <aside
-            class="bg-white sm:col-span-3 col-span-12 sm:p-6 p-2 rounded-xl bg-base-100 shadow-sm"
+            class="bg-white sm:col-span-3 col-span-12 sm:p-6 p-2 rounded-xl shadow-sm"
           >
             <div class="flex justify-between items-center">
               <div
@@ -512,14 +532,18 @@
                 <h1 class="font-bold">Call History</h1>
               </div>
               <button
+                id="clearHistory"
                 class="btn bg-[#00A63E] text-white p-2 sm:p-6 max-w-[123] hover:bg-gray-300 rounded-[50px]"
               >
                 <span class="sm:text-lg text-xs">Clear</span>
               </button>
             </div>
+
+            <div- id="callHistory" class="mt-4 space-y-2"> </div->
           </aside>
         </section>
       </section>
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>
